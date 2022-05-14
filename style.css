@@ -370,6 +370,7 @@ p {
 }
 #about .col-right p {
   margin-bottom: 20px;
+  color: #000;
 }
 #about .col-right .cta {
   color: black;
