@@ -398,7 +398,7 @@ p {
 /* End About Section */
 
 /* iamgoodat Section */
-#iamgoodat .iamgoodat-container {
+#iamgoodat .iamgoodat {
   flex-direction: column;
   text-align: center;
   max-width: 1500px;
