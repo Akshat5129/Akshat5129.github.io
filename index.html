@@ -1,224 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script>
-
-    $(window).load(function() {
-        $(".loader").delay(2000).fadeOut("slow");
-        $("#overlayer").delay(2000).fadeOut("slow");
-      })
-    </script> -->
-  <title>AKSHAT PATEL | Portfolio</title>
-  <link rel="icon" href="#" type="image/ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Vinaybhai Patel</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #282c34;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+        .sidebar h2 {
+            color: #61dafb;
+            margin: 0 0 20px 0;
+        }
+        .sidebar a {
+            color: #dcdcdc;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 10px;
+            display: block;
+            border-radius: 4px;
+        }
+        .sidebar a:hover {
+            background-color: #3e3e3e;
+        }
+        .main-content {
+            flex: 1;
+            background-color: #1e1e1e;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .code-block {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        .code-block pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .header-links {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+        }
+        .header-links a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+        .header-links a:hover {
+            text-decoration: underline;
+        }
+        .code-block strong {
+            color: #61dafb;
+        }
+        @media (max-width: 600px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+            }
+            .main-content {
+                padding: 10px;
+            }
+            .code-block {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
 </head>
 <body>
-  <!-- <div id="overlayer"></div>
-<span class="loader">
-  <span class="loader-inner"></span>
-</span> -->
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero"><h1><span>A</span>kshat<span>P</span>atel</h1></a>
+    <div class="sidebar">
+        <h2 style=text-align:center> Akshat Vinaybhai Patel</h2>
+		<h4 style=text-align:center> Chicago, IL</h4>
+        <div class="header-links">
+            <a href="https://github.com/akshat5129">GitHub</a>
+            <a href="https://linkedin.com/in/akshat5129">LinkedIn</a>
+            <a href="mailto:akpatel5129@gmail.com">Gmail</a>
+			
         </div>
-        <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#iamgoodat" data-after="iamgood">I'm good at</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+        <a href="#education">Education</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#extra-curricular">Extra-Curricular Activities</a>
+        <a href="#awards-certifications">Awards and Certifications</a>
+        <a href="#skills">Skills</a>
     </div>
-  </section>
-  <!-- End Header -->
+    <div class="main-content">
+        <div id="education" class="code-block">
+            <pre>
+<strong>EDUCATION</strong>
+DePaul University, Chicago (2024 - 2026)
+<span style="color: #98c379;">Masters in Computer Science</span>
 
+Avantika University, Ujjain (2019 - 2023)
+<span style="color: #98c379;">BTech in Computer Science & Engineering</span>
+            </pre>
+        </div>
 
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello, <span></span></h1>
-        <h1>My Name is <span></span></h1>
-        <h1>AKSHAT PATEL <span></span></h1>
-        <a href="https://drive.google.com/file/d/1lpnKWDtMFwOR6rs1mgyekQtst1Q0yFaO/view?usp=share_link" type="button" class="cta">Portfolio</a>
-      </div>
+        <div id="work-experience" class="code-block">
+            <pre>
+<strong>WORK EXPERIENCE</strong>
+<span style="color: #e06c75;">FoundershipHQ | Web3 startup launcher | City Lead (April 2023 - Present)</span>
+• Lead the city-level operations and community management efforts.
+• Organize and nurture the startup community.
+• Contribute to the growth of the Web3 startup ecosystem.
+
+<span style="color: #e06c75;">Ocean Analytics LLC | IT Developer Intern (Jan 2023 - June 2023)</span>
+• Aid in the development and enhancement of IT infrastructure.
+• Collaborate with the IT team to improve technology resources.
+• Gain hands-on experience in IT development.
+
+<span style="color: #e06c75;">Starline Solutions Pvt. Ltd. | React Native Intern (June 2022 - Sept 2022)</span>
+• Focus on React Native development.
+• Complete assigned tasks and gain practical experience.
+
+<span style="color: #e06c75;">APEX Web Infotech | Flutter Developer Freelancer (Sept 2022 - Dec 2022)</span>
+• Develop the "Plantation App" for NGO Vikalp.
+• Design and build an application with social impact.
+
+<span style="color: #e06c75;">Google - GDSC Lead (July 2021 - Aug 2022)</span>
+• Lead and coordinate tech-related events.
+• Organize and host informative events.
+
+<span style="color: #e06c75;">Google Developer Groups & GDG Cloud Indore - Core Member (Dec 2021 - Present)</span>
+• Organize large-scale tech events.
+• Promote learning and networking in the tech community.
+            </pre>
+        </div>
+
+        <div id="projects" class="code-block">
+            <pre>
+<strong>PROJECTS</strong>
+<span style="color: #d19a66;">Smart Village - Mobile Application</span>
+• Facilitates the transition of villages towards a digital India.
+
+<span style="color: #d19a66;">The Local Shop - E-Commerce Website</span>
+• Platform for local shopkeepers to connect with customers.
+
+<span style="color: #d19a66;">Covid-19 Identification and Probability - Console Based Application</span>
+• Educational tool for learning OOP concepts using C++.
+
+<span style="color: #d19a66;">University Result Prediction - Machine Learning Model</span>
+• Forecasts semester results based on historical data.
+
+<span style="color: #d19a66;">Multiple Disease Prediction - Machine Learning based Web Application</span>
+• Predicts potential diseases using machine learning algorithms.
+
+<span style="color: #d19a66;">University Voting Application - Web Application</span>
+• Streamlined university elections and student council processes.
+            </pre>
+        </div>
+
+        <div id="extra-curricular" class="code-block">
+            <pre>
+<strong>EXTRA-CURRICULAR ACTIVITIES</strong>
+1. <span style="color: #c678dd;">Android Study Jams Facilitator | Google</span>
+2. <span style="color: #c678dd;">Flutter Festivals Facilitator | Google</span>
+3. <span style="color: #c678dd;">ML Study Jams Facilitator | Google</span>
+4. <span style="color: #c678dd;">Firebase For Web Facilitator | Google</span>
+            </pre>
+        </div>
+
+        <div id="awards-certifications" class="code-block">
+            <pre>
+<strong>AWARDS AND CERTIFICATIONS</strong>
+1. <span style="color: #61afef;">Google IT Automation with Python | By Google</span>
+2. <span style="color: #61afef;">1st Prize Chakraview: Code Run (Hackathon)</span>
+3. <span style="color: #61afef;">Google Cloud Big Data and Machine Learning Fundamentals | By Google Cloud</span>
+4. <span style="color: #61afef;">30 Days of Google Cloud</span>
+5. <span style="color: #61afef;">Google Dev Library Contributor</span>
+            </pre>
+        </div>
+
+        <div id="skills" class="code-block">
+            <pre>
+<strong>SKILLS</strong>
+Languages: <span style="color: #e5c07b;">English, Hindi, Gujarati</span>
+ICT: <span style="color: #e5c07b;">Python, C++, Java, HTML/CSS, JavaScript, Flutter, React JS, Firebase, MySQL, Flask, AWS, GCP</span>
+            </pre>
+        </div>
     </div>
-  </section>
-  <!-- End Hero Section  -->
-
-   <!-- About Section -->
-   <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="images/ak.jpg" alt="img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        
-        <p>Hi, My name is Akshat Patel. I am  from Avantika University, pursuing my Bachelor's Degree in Computer Science and Engineering .</p>
-        <h2>Objective</h2>
-        <p>I am a technical geek, highly determined and focused, seeking an opportunity to maximize experience in the best possible manner. I'm dedicated, organized and self directed individual possesses great communication skills with emphasis on positive rapport and relationship building talents .</p>
-        <h2>Degree :<p>Master's in Computer Science (Pursuing) </p></h2>
-        <a href="https://drive.google.com/file/d/1Lwygb_Sou7DfG2iadvy6JWkXTwVghCu9/view?usp=share_link" target ="_blank"class="cta" > Download CV</button></a>
-      </div>
-    </div>
-    
-  </section>
-
-  <!-- End About Section -->
-
-  
-
-  <!-- Service Section -->
-  <section id="iamgoodat">
-    <div class="iamgoodat-container">
-      <div class="iamgoodat-top">
-        <h2 class="section-title">What<span> I am </span>Good at</h2>
-        <p></p>
-      </div>
-      <div class="iamgoodat-bottom">
-        <div class="iamgoodat-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/android.png"/></div>
-          <h2>App Development</h2>
-          <p>Developing mobile apps to make it user friendly using Java,XML,Flutter and Android studio.</p>
-        </div>
-        <div class="iamgoodat-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/laptop.png"/></div>
-          <h2>Web-Designing</h2>
-          <p>Front-end designing of web pages using HTML,(S)CSS and Javascript.</p>
-        </div>
-        <div class="iamgoodat-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/light-on.png"/></div>
-          <h2>UI/UX design</h2>
-          <p>Designing good user interfaces using Axure,FIgma and framer for prototyping.</p>
-        </div>
-        <div class="iamgoodat-item">
-          <div class="icon"><img src=https://img.icons8.com/bubbles/100/000000/code.png/></div>
-          <h2>Programming Skills</h2>
-          <p>Competing in various contests with knowledge based on Python,C,C++.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
-
-  <!-- Projects Section 
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="projects-body">
-        <div class="project-item">
-          <div class="project-img">
-            <img src="images/vsc.png" alt="img">
-          </div>
-          <div class="project-info">
-            <h2>VSCode themed portfolio</h2>
-            <p>A simple portfolio website made using VSCode.</p>
-            <a href="https://links.kiradev.co/project/vsc-portfolio" target ="_blank"class="cta">View Project</a>
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-img">
-            <img src="images/vsc.png" alt="img">
-          </div>
-          <div class="project-info">
-            <h2>VSCode themed portfolio</h2>
-            <p>A simple portfolio website made using VSCode.</p>
-            <a href="https://links.kiradev.co/project/vsc-portfolio" target ="_blank"class="cta">View Project</a>
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-img">
-            <img src="images/vsc.png" alt="img">
-          </div>
-          <div class="project-info">
-            <h2>VSCode themed portfolio</h2>
-            <p>A simple portfolio website made using VSCode.</p>
-            <a href="https://links.kiradev.co/project/vsc-portfolio" target ="_blank"class="cta">View Project</a>
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-img">
-            <img src="images/vsc.png" alt="img">
-          </div>
-          <div class="project-info">
-            <h2>VSCode themed portfolio</h2>
-            <p>A simple portfolio website made using VSCode.</p>
-            <a href="https://links.kiradev.co/project/vsc-portfolio" target ="_blank"class="cta">View Project</a>
-  </h2>
-  </section>
-  -->
-    <!-- End Projects Section -->
-
- 
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div><h1 class="section-title">Contact <span>info</span></h1></div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2><a href="tel:+919328812925" class="contact-details">+91 9328812925</a></h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2><a href="mailto:akshatvinaybhai.patel@avantika.edu.in" class="contact-details">akshatvinaybhai.patel@avantika.edu.in</a></h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Dhansura, Gujarat, India</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand"><h1><span>A</span>kshat <span>P</span>atel</h1></div>
-      <h2>Follow Me Here!</h2>
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="https://twitter.com/akshat5129"target ="_blank"><img src="https://img.icons8.com/bubbles/50/000000/twitter-squared.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://www.instagram.com/akshat_chaudhary_11/"target ="_blank" ><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://github.com/Akshat5129"target ="_blank"><img src="https://img.icons8.com/bubbles/100/000000/github.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://www.linkedin.com/in/akshat-patel-41b05718b/"target ="_blank"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/></a>
-        </div>
-      </div>
-      <p>Copyright © 2022 Akshat. All rights reserved.</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
 </body>
 </html>
